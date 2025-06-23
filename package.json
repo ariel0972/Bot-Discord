@@ -1,18 +1,19 @@
 {
   "dependencies": {
-    "@keyv/postgres": "^2.1.1",
-    "@keyv/sqlite": "^4.0.1",
+    "@keyv/mongo": "^3.0.3",
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.5",
     "keyv": "^5.2.3",
-    "sequelize": "^6.37.5",
-    "sqlite3": "^5.1.7"
+    "mongoose": "^8.16.0",
+    "sequelize": "^6.37.5"
   },
   "name": "bot-discord",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js -w"
+    "dev": "node index.js --w",
+    "deploy-test": "node deploy-commands.js",
+    "deploy": "node deploy.js"
   },
   "keywords": [
     "bot-discord"
