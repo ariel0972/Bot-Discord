@@ -20,6 +20,8 @@ module.exports = {
         ),
 
     async execute(interaction) {
+        // await interaction.deferReply();
+
         const discordId = interaction.user.id
         const username = interaction.options.getString("email")
         const password = interaction.options.getString("senha")
