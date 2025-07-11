@@ -10,9 +10,9 @@ Meu bot pessoal do discord com algumas funções simples.
 
 ### Funções para o Habitica!
 
-- logar - Logue com sua conta do habtiica e receba seu userID e ApiToken
-- vincular - Vincule sua conta ao bot.
-- criar-habito - Crie um habito dentro do Hábitica.
+- Vincular - Vincule sua conta ao bot.
+- Criar Hábito - Crie um habito dentro do Hábitica.
+- Ver Perfil - Você pode ver seu perfil do Habitica mostrando seu nível, seus status, classe, ouro e seu Avatar.
 - [ ] criar-diária
 - [ ] criar-afazer
 - [ ] criar-recompensa
